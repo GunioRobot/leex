@@ -233,7 +233,7 @@ Input File Format
 	predefined exports declaration so it is possible to add extra
 	exports, define imports and other attributes which are then
 	visible in the whole file.
-	
+
 Regular Expressions
 
 	The regular expressions allowed here is a subset of the set

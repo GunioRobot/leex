@@ -70,7 +70,7 @@ This is a short form for both \fIreturn_errors\fR and \fIreturn_warnings\fR\&.
 Outputs information from parsing the input file and generating the internal tables\&.
 .RE
 .LP
-Any of the Boolean options can be set to \fItrue\fR by stating the name of the option\&. For example, \fIverbose\fR is equivalent to \fI{verbose, true}\fR\&. 
+Any of the Boolean options can be set to \fItrue\fR by stating the name of the option\&. For example, \fIverbose\fR is equivalent to \fI{verbose, true}\fR\&.
 .RE
 .LP
 .B
@@ -105,10 +105,10 @@ Scans \fIString\fR and returns all the tokens in it, or an error\&. N\&.B\&. it 
 .RE
 .LP
 .B
-token(Cont, Chars) -> {more,Cont} | {done,ScanRet,RestChars} 
+token(Cont, Chars) -> {more,Cont} | {done,ScanRet,RestChars}
 .br
 .B
-token(Cont, Chars, StartLine) -> {more,Cont} | {done,ScanRet,RestChars} 
+token(Cont, Chars, StartLine) -> {more,Cont} | {done,ScanRet,RestChars}
 .br
 .RS
 .LP
@@ -123,10 +123,10 @@ io:request(InFile, {get_until,Prompt,Module,token,[Line]})
 .RE
 .LP
 .B
-tokens(Cont, Chars) -> {more,Cont} | {done,ScanRet,RestChars} 
+tokens(Cont, Chars) -> {more,Cont} | {done,ScanRet,RestChars}
 .br
 .B
-tokens(Cont, Chars, StartLine) -> {more,Cont} | {done,ScanRet,RestChars} 
+tokens(Cont, Chars, StartLine) -> {more,Cont} | {done,ScanRet,RestChars}
 .br
 .RS
 .LP

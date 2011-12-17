@@ -20,6 +20,6 @@ docs:
 	mv $(SOURCE_DIR)/*.html $(DOC_DIR)/
 
 clean:
-	rm -rf erl_crash.dump 
+	rm -rf erl_crash.dump
 	rm -rf $(EBIN_DIR)/*.beam
 	rm -rf $(DOC_DIR)/*.html
